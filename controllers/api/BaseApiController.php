@@ -1,12 +1,12 @@
 <?php
 
-namespace IPriceGroup\OcApiPlugin\Controllers\Api;
+namespace JosephCrowell\OcRestApi\Controllers\Api;
 
 use Cms\Classes\Controller;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Support\Facades\Request;
-use IPriceGroup\OcApiPlugin\Controllers\Api\Exceptions\ResourceIdNotSpecified;
+use JosephCrowell\OcRestApi\Controllers\Api\Exceptions\ResourceIdNotSpecified;
 use October\Rain\Database\Builder;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -106,7 +106,9 @@ abstract class BaseApiController extends Controller
         });
     }
 
-    protected function applyCustomFilter() {}
+    protected function applyCustomFilter()
+    {
+    }
 
     private function initializeQueryBuilder()
     {
@@ -166,7 +168,6 @@ abstract class BaseApiController extends Controller
                 }
             );
         }
-
     }
 
     private function eagerLoadRelations()

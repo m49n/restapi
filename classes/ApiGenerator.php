@@ -1,9 +1,9 @@
 <?php
 
-namespace IPriceGroup\OcApiPlugin\Classes;
+namespace JosephCrowell\OcRestApi\Classes;
 
 use Illuminate\Database\Eloquent\Collection;
-use IPriceGroup\OcApiPlugin\Models\Resource;
+use JosephCrowell\OcRestApi\Models\Resource;
 
 class ApiGenerator
 {

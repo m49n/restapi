@@ -1,8 +1,8 @@
 <?php
 
-namespace IPriceGroup\OcApiPlugin\Models;
+namespace JosephCrowell\OcRestApi\Models;
 
-use IPriceGroup\OcApiPlugin\Classes\ResourceObserver;
+use JosephCrowell\OcRestApi\Classes\ResourceObserver;
 use Model;
 use RainLab\Builder\Classes\ComponentHelper;
 
@@ -18,13 +18,12 @@ class Resource extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'ipricegroup_ocapiplugin_resources';
+    public $table = 'josephcrowell_ocrestapi_resources';
 
     /**
      * @var array Validation rules
      */
-    public $rules = [
-    ];
+    public $rules = [];
 
     protected $jsonable = [
         'eager_load'

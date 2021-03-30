@@ -1,6 +1,6 @@
 <?php
 
-namespace IPriceGroup\OcApiPlugin\Controllers\Api;
+namespace JosephCrowell\OcRestApi\Controllers\Api;
 
 class %controller_class% extends BaseApiController
 {

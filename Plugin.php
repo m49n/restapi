@@ -1,8 +1,8 @@
 <?php
 
-namespace IPriceGroup\OcApiPlugin;
+namespace JosephCrowell\OcRestApi;
 
-use IPriceGroup\OcApiPlugin\Console\SyncRoutesCommand;
+use JosephCrowell\OcRestApi\Console\SyncRoutesCommand;
 use System\Classes\PluginBase;
 
 class Plugin extends PluginBase
@@ -12,15 +12,15 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name' => 'ipricegroup.ocapiplugin::lang.plugin.name',
-            'description' => 'ipricegroup.ocapiplugin::lang.plugin.description',
-            'author' => 'iPrice Group',
+            'name' => 'josephcrowell.ocrestapi::lang.plugin.name',
+            'description' => 'josephcrowell.ocrestapi::lang.plugin.description',
+            'author' => 'Joseph Crowell',
             'icon' => 'icon-cloud'
         ];
     }
 
     public function register()
     {
-        $this->registerConsoleCommand('ocapiplugin:routes:sync', SyncRoutesCommand::class);
+        $this->registerConsoleCommand('ocrestapi:routes:sync', SyncRoutesCommand::class);
     }
 }

@@ -1,18 +1,18 @@
 plugin:
-    name: 'ipricegroup.ocapiplugin::lang.plugin.name'
-    description: 'ipricegroup.ocapiplugin::lang.plugin.description'
-    author: 'iPrice Group'
+    name: "josephcrowell.ocrestapi::lang.plugin.name"
+    description: "josephcrowell.ocrestapi::lang.plugin.description"
+    author: "Joseph Crowell"
     icon: icon-cloud
-    homepage: 'https://iprice.my'
+    homepage: "https://computerlink.com.au"
 navigation:
-    iprice-api-main:
-        label: 'iPrice API'
-        url: /ipricegroup/ocapiplugin/resources
+    ocrest-api-main:
+        label: "October CMS Rest API"
+        url: /josephcrowell/ocrestapi/resources
         icon: icon-cloud
-        iconSvg: plugins/ipricegroup/ocapiplugin/icon.svg
+        iconSvg: plugins/josephcrowell/ocrestapi/icon.svg
         permissions:
             - manage_apis
 permissions:
     manage_apis:
-        tab: 'APIs'
-        label: 'Manage the API endpoints'
+        tab: "APIs"
+        label: "Manage the API endpoints"

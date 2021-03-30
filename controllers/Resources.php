@@ -1,19 +1,19 @@
 <?php
 
-namespace IPriceGroup\OcApiPlugin\Controllers;
+namespace JosephCrowell\OcRestApi\Controllers;
 
 use Backend\Classes\Controller;
 use BackendMenu;
-use IPriceGroup\OcApiPlugin\Classes\ApiGenerator;
+use JosephCrowell\OcRestApi\Classes\ApiGenerator;
 
 class Resources extends Controller
 {
-    public $implement = [        'Backend\Behaviors\ListController',        'Backend\Behaviors\FormController'    ];
+    public $implement = ['Backend\Behaviors\ListController',        'Backend\Behaviors\FormController'];
 
     public $listConfig = 'config_list.yaml';
     public $formConfig = 'config_form.yaml';
 
-    public $requiredPermissions = ['ipricegroup.ocapiplugin.manage_apis'];
+    public $requiredPermissions = ['josephcrowell.ocrestapi.manage_apis'];
 
     /**
      * @var ApiGenerator
@@ -23,7 +23,7 @@ class Resources extends Controller
     public function __construct(ApiGenerator $apiGenerator)
     {
         parent::__construct();
-        BackendMenu::setContext('iPriceGroup.OcApiPlugin', 'iprice-api-main', 'iprice-api-resources');
+        BackendMenu::setContext('josephcrowell.ocrestapi', 'ocrest-api-main', 'ocrest-api-resources');
 
         $this->apiGenerator = $apiGenerator;
     }

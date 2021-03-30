@@ -1,10 +1,10 @@
 <?php
 
-namespace IPriceGroup\OcApiPlugin\Classes;
+namespace JosephCrowell\OcRestApi\Classes;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Database\Eloquent\Collection;
-use IPriceGroup\OcApiPlugin\Models\Resource;
+use JosephCrowell\OcRestApi\Models\Resource;
 use Tymon\JWTAuth\Http\Middleware\Authenticate;
 
 class RoutesManager

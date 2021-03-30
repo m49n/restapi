@@ -1,8 +1,8 @@
 <?php
 
-namespace IPriceGroup\OcApiPlugin\Classes;
+namespace JosephCrowell\OcRestApi\Classes;
 
-use IPriceGroup\OcApiPlugin\Models\Resource;
+use JosephCrowell\OcRestApi\Models\Resource;
 
 class ResourceObserver
 {

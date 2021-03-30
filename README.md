@@ -1,6 +1,6 @@
-# Note: CORS must be configured correctly on your server for API calls to work. #
+## Note: CORS must be configured correctly on your server for API calls to work. ##
 
-## iPrice RESTful API Generator for October CMS
+## RESTful API Generator for October CMS
 Generate secure RESTful APIs for your models.
 
 ---

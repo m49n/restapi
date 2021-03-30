@@ -1,4 +1,6 @@
-## Note: CORS must be configured correctly on your server for API calls to work. ##
+```diff
+-## Note: CORS must be configured correctly on your server for API calls to work. ##
+```
 
 ## RESTful API Generator for October CMS
 Generate secure RESTful APIs for your models.

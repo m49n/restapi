@@ -1,5 +1,5 @@
 ```diff
--## Note: CORS must be configured correctly on your server for API calls to work. ##
+-Note: CORS must be configured correctly on your server for API calls to work.
 ```
 
 ## RESTful API Generator for October CMS

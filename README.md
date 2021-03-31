@@ -5,6 +5,8 @@
 ## RESTful API Generator for October CMS
 Generate secure RESTful APIs for your models.
 
+This is a fork of the unmaintained [iPriceGroup/ocapiplugin](https://github.com/iPriceGroup/ocapiplugin)
+
 ---
 ### Features
 

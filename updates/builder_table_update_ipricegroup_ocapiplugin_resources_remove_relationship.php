@@ -1,8 +1,8 @@
 <?php
 
-namespace JosephCrowell\OcRestApi\Updates;
+namespace JosephCrowell\RestApi\Updates;
 
-use JosephCrowell\OcRestApi\Models\Resource;
+use JosephCrowell\RestApi\Models\Resource;
 use Schema;
 use October\Rain\Database\Updates\Migration;
 

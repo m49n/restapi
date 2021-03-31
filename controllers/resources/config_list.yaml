@@ -1,5 +1,5 @@
-list: $/josephcrowell/ocrestapi/models/resource/columns.yaml
-modelClass: JosephCrowell\OcRestApi\Models\Resource
+list: $/josephcrowell/restapi/models/resource/columns.yaml
+modelClass: JosephCrowell\RestApi\Models\Resource
 title: Resources
 noRecordsMessage: 'backend::lang.list.no_records'
 showSetup: true
@@ -9,4 +9,4 @@ toolbar:
     buttons: list_toolbar
     search:
         prompt: 'backend::lang.list.search_prompt'
-recordUrl: 'josephcrowell/ocrestapi/resources/update/:id'
+recordUrl: 'josephcrowell/restapi/resources/update/:id'

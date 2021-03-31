@@ -1,17 +1,17 @@
 <?php
 
-namespace JosephCrowell\OcRestApi\Console;
+namespace JosephCrowell\RestApi\Console;
 
 use Illuminate\Console\Command;
-use JosephCrowell\OcRestApi\Classes\ApiGenerator;
-use JosephCrowell\OcRestApi\Models\Resource;
+use JosephCrowell\RestApi\Classes\ApiGenerator;
+use JosephCrowell\RestApi\Models\Resource;
 
 class SyncRoutesCommand extends Command
 {
     /**
      * @var string The console command name.
      */
-    protected $name = 'ocrestapi:routes:sync';
+    protected $name = 'restapi:routes:sync';
 
     /**
      * @var string The console command description.

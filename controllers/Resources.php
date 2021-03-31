@@ -1,10 +1,10 @@
 <?php
 
-namespace JosephCrowell\OcRestApi\Controllers;
+namespace JosephCrowell\RestApi\Controllers;
 
 use Backend\Classes\Controller;
 use BackendMenu;
-use JosephCrowell\OcRestApi\Classes\ApiGenerator;
+use JosephCrowell\RestApi\Classes\ApiGenerator;
 
 class Resources extends Controller
 {
@@ -13,7 +13,7 @@ class Resources extends Controller
     public $listConfig = 'config_list.yaml';
     public $formConfig = 'config_form.yaml';
 
-    public $requiredPermissions = ['josephcrowell.ocrestapi.manage_apis'];
+    public $requiredPermissions = ['josephcrowell.restapi.manage_apis'];
 
     /**
      * @var ApiGenerator
@@ -23,7 +23,7 @@ class Resources extends Controller
     public function __construct(ApiGenerator $apiGenerator)
     {
         parent::__construct();
-        BackendMenu::setContext('josephcrowell.ocrestapi', 'ocrest-api-main', 'ocrest-api-resources');
+        BackendMenu::setContext('josephcrowell.restapi', 'rest-api-main', 'rest-api-resources');
 
         $this->apiGenerator = $apiGenerator;
     }

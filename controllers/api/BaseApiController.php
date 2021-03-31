@@ -1,12 +1,12 @@
 <?php
 
-namespace JosephCrowell\OcRestApi\Controllers\Api;
+namespace JosephCrowell\RestApi\Controllers\Api;
 
 use Cms\Classes\Controller;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Support\Facades\Request;
-use JosephCrowell\OcRestApi\Controllers\Api\Exceptions\ResourceIdNotSpecified;
+use JosephCrowell\RestApi\Controllers\Api\Exceptions\ResourceIdNotSpecified;
 use October\Rain\Database\Builder;
 use Symfony\Component\HttpFoundation\Response;
 

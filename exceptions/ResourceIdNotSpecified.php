@@ -1,6 +1,6 @@
 <?php
 
-namespace JosephCrowell\OcRestApi\Controllers\Api\Exceptions;
+namespace JosephCrowell\RestApi\Controllers\Api\Exceptions;
 
 class ResourceIdNotSpecified extends \Exception
 {

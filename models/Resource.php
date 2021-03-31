@@ -1,8 +1,8 @@
 <?php
 
-namespace JosephCrowell\OcRestApi\Models;
+namespace JosephCrowell\RestApi\Models;
 
-use JosephCrowell\OcRestApi\Classes\ResourceObserver;
+use JosephCrowell\RestApi\Classes\ResourceObserver;
 use Model;
 use RainLab\Builder\Classes\ComponentHelper;
 
@@ -18,7 +18,7 @@ class Resource extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'josephcrowell_ocrestapi_resources';
+    public $table = 'josephcrowell_restapi_resources';
 
     /**
      * @var array Validation rules

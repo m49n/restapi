@@ -1,9 +1,9 @@
 1.0.0:
     - 'Initialize plugin'
-    - builder_table_create_josephcrowell_ocrestapi_resources.php
+    - builder_table_create_josephcrowell_restapi_resources.php
 1.0.1:
     - 'Make base_endpoint unique and remove soft delete'
-    - builder_table_update_josephcrowell_ocrestapi_resources.php
+    - builder_table_update_josephcrowell_restapi_resources.php
 1.0.2:
     - 'Register Manage APIs permission'
 1.0.3:
@@ -17,10 +17,10 @@
 1.0.7:
     - 'Fix issue where custom controllers get overwritten with default controller after saving a resource'
 1.1.0:
-    - 'Create ocrestapi:routes:sync command to sync routes via CLI for CD'
+    - 'Create restapi:routes:sync command to sync routes via CLI for CD'
 1.2.0:
     - 'Remove `relationship` key from eager_load'
-    - builder_table_update_josephcrowell_ocrestapi_resources_remove_relationship.php
+    - builder_table_update_josephcrowell_restapi_resources_remove_relationship.php
 1.2.1:
     - 'Add router_method and controller_method to table'
-    - builder_table_update_josephcrowell_ocrestapi_resources_add_router_method_controller_method.php
+    - builder_table_update_josephcrowell_restapi_resources_add_router_method_controller_method.php

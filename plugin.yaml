@@ -1,15 +1,15 @@
 plugin:
-    name: "josephcrowell.ocrestapi::lang.plugin.name"
-    description: "josephcrowell.ocrestapi::lang.plugin.description"
+    name: "josephcrowell.restapi::lang.plugin.name"
+    description: "josephcrowell.restapi::lang.plugin.description"
     author: "Joseph Crowell"
     icon: icon-cloud
     homepage: "https://computerlink.com.au"
 navigation:
-    ocrest-api-main:
+    rest-api-main:
         label: "October CMS Rest API"
-        url: /josephcrowell/ocrestapi/resources
+        url: /josephcrowell/restapi/resources
         icon: icon-cloud
-        iconSvg: plugins/josephcrowell/ocrestapi/icon.svg
+        iconSvg: plugins/josephcrowell/restapi/icon.svg
         permissions:
             - manage_apis
 permissions:

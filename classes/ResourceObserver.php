@@ -1,8 +1,8 @@
 <?php
 
-namespace JosephCrowell\OcRestApi\Classes;
+namespace JosephCrowell\RestApi\Classes;
 
-use JosephCrowell\OcRestApi\Models\Resource;
+use JosephCrowell\RestApi\Models\Resource;
 
 class ResourceObserver
 {

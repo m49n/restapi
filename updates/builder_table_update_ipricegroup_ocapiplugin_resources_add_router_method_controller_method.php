@@ -1,13 +1,13 @@
 <?php
 
-namespace JosephCrowell\OcRestApi\Updates;
+namespace JosephCrowell\RestApi\Updates;
 
 use Schema;
 use October\Rain\Database\Updates\Migration;
 
 class BuilderTableUpdateIpricegroupOcapipluginResourcesAddRouterMethodControllerMethod extends Migration
 {
-    const TABLE_NAME = 'josephcrowell_ocrestapi_resources';
+    const TABLE_NAME = 'josephcrowell_restapi_resources';
 
     public function up()
     {

@@ -1,8 +1,8 @@
 <?php
 
-namespace JosephCrowell\OcRestApi;
+namespace JosephCrowell\RestApi;
 
-use JosephCrowell\OcRestApi\Console\SyncRoutesCommand;
+use JosephCrowell\RestApi\Console\SyncRoutesCommand;
 use System\Classes\PluginBase;
 
 class Plugin extends PluginBase
@@ -12,15 +12,15 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name' => 'josephcrowell.ocrestapi::lang.plugin.name',
-            'description' => 'josephcrowell.ocrestapi::lang.plugin.description',
+            'name' => 'josephcrowell.restapi::lang.plugin.name',
+            'description' => 'josephcrowell.restapi::lang.plugin.description',
             'author' => 'Joseph Crowell',
-            'icon' => 'icon-cloud'
+            'icon' => 'icon-exchange'
         ];
     }
 
     public function register()
     {
-        $this->registerConsoleCommand('ocrestapi:routes:sync', SyncRoutesCommand::class);
+        $this->registerConsoleCommand('restapi:routes:sync', SyncRoutesCommand::class);
     }
 }

@@ -1,17 +1,17 @@
 <?php
 
-namespace JosephCrowell\OcRestApi\Classes;
+namespace JosephCrowell\RestApi\Classes;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
-use JosephCrowell\OcRestApi\Models\Resource;
+use JosephCrowell\RestApi\Models\Resource;
 
 class ApiControllersManager
 {
     private const API_CONTROLLER_TPL_PATH = __DIR__ . '/../templates/controller.tpl';
     private const API_CONTROLLERS_DIRECTORY = __DIR__ . '/../controllers/api';
-    private const API_CONTROLLER_NAMESPACE = 'JosephCrowell\OcRestApi\Controllers\Api';
+    private const API_CONTROLLER_NAMESPACE = 'JosephCrowell\RestApi\Controllers\Api';
     private const API_CONTROLLER_TPL_PLACEHOLDERS = [
         '%controller_class%',
         '%resource_name%',

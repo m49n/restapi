@@ -1,6 +1,6 @@
 <?php
 
-namespace JosephCrowell\OcRestApi\Updates;
+namespace JosephCrowell\RestApi\Updates;
 
 use Schema;
 use October\Rain\Database\Updates\Migration;
@@ -9,7 +9,7 @@ class BuilderTableCreateIpricegroupOcapipluginResources extends Migration
 {
     public function up()
     {
-        Schema::create('josephcrowell_ocrestapi_resources', function ($table) {
+        Schema::create('josephcrowell_restapi_resources', function ($table) {
             $table->engine = 'InnoDB';
             $table->increments('id')->unsigned();
             $table->string('base_endpoint');
@@ -24,6 +24,6 @@ class BuilderTableCreateIpricegroupOcapipluginResources extends Migration
 
     public function down()
     {
-        Schema::dropIfExists('josephcrowell_ocrestapi_resources');
+        Schema::dropIfExists('josephcrowell_restapi_resources');
     }
 }

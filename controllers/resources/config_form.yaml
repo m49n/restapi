@@ -1,10 +1,10 @@
 name: Resources
-form: $/josephcrowell/ocrestapi/models/resource/fields.yaml
-modelClass: JosephCrowell\OcRestApi\Models\Resource
-defaultRedirect: josephcrowell/ocrestapi/resources
+form: $/josephcrowell/restapi/models/resource/fields.yaml
+modelClass: JosephCrowell\RestApi\Models\Resource
+defaultRedirect: josephcrowell/restapi/resources
 create:
-    redirect: 'josephcrowell/ocrestapi/resources/update/:id'
-    redirectClose: josephcrowell/ocrestapi/resources
+    redirect: 'josephcrowell/restapi/resources/update/:id'
+    redirectClose: josephcrowell/restapi/resources
 update:
-    redirect: josephcrowell/ocrestapi/resources
-    redirectClose: josephcrowell/ocrestapi/resources
+    redirect: josephcrowell/restapi/resources
+    redirectClose: josephcrowell/restapi/resources

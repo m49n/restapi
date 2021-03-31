@@ -2,14 +2,13 @@ plugin:
     name: "josephcrowell.restapi::lang.plugin.name"
     description: "josephcrowell.restapi::lang.plugin.description"
     author: "Joseph Crowell"
-    icon: icon-cloud
+    icon: icon-exchange
     homepage: "https://computerlink.com.au"
 navigation:
     rest-api-main:
         label: "October CMS Rest API"
-        url: /josephcrowell/restapi/resources
-        icon: icon-cloud
-        iconSvg: plugins/josephcrowell/restapi/icon.svg
+        url: josephcrowell/restapi/resources
+        icon: icon-exchange
         permissions:
             - manage_apis
 permissions:

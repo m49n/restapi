@@ -12,8 +12,8 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name' => 'josephcrowell.restapi::lang.plugin.name',
-            'description' => 'josephcrowell.restapi::lang.plugin.description',
+            'name' => 'RESTful API Generator',
+            'description' => 'Generate RESTful APIs from your models',
             'author' => 'Joseph Crowell',
             'icon' => 'icon-exchange'
         ];

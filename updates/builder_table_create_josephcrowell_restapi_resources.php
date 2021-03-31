@@ -5,7 +5,7 @@ namespace JosephCrowell\RestApi\Updates;
 use Schema;
 use October\Rain\Database\Updates\Migration;
 
-class BuilderTableCreateIpricegroupOcapipluginResources extends Migration
+class BuilderTableCreateJosephCrowellRestApiResources extends Migration
 {
     public function up()
     {

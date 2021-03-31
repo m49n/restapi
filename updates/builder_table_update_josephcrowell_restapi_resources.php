@@ -5,7 +5,7 @@ namespace JosephCrowell\RestApi\Updates;
 use Schema;
 use October\Rain\Database\Updates\Migration;
 
-class BuilderTableUpdateIpricegroupOcapipluginResources extends Migration
+class BuilderTableUpdateJosephCrowellRestApiResources extends Migration
 {
     const TABLE_NAME = 'josephcrowell_restapi_resources';
 
